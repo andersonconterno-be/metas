@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">
+  <script src="./main.js" defer></script>
+  <title>Metas</title>
+</head>
+<body>
+  <header>
+    <h1>Metas</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Diário</a>
+      <a href="#">Resumo</a>
+      <a href="#">Configurações</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="objective">
+      <label for="objective">Objetivo:</label>
+      <textarea name="objective" id="objective" rows="3"></textarea>
+    </div>
+
+    <section class="metas">
+
+      <section class="metas-diarias">
+        <h3>Metas Diárias</h3>
+        <button class="add-meta" data-target=".metas-diarias .linha-meta">Adicionar Meta</button>
+        <div class="linha-meta"></div>
+      </section>
+
+      <section class="metas-semanais">
+        <h3>Metas Semanais</h3>
+        <button class="add-meta" data-target=".metas-semanais .linha-meta">Adicionar Meta</button>
+        <div class="linha-meta"></div>
+      </section>
+
+      <section class="metas-mensais">
+        <h3>Metas Mensais</h3>
+        <button class="add-meta" data-target=".metas-mensais .linha-meta">Adicionar Meta</button>
+        <div class="linha-meta"></div>
+      </section>
+
+      <section class="metas-para-vida">
+        <h3>Metas para a vida</h3>
+        <button class="add-meta" data-target=".metas-para-vida .linha-meta">Adicionar Meta</button>
+        <div class="linha-meta"></div>
+      </section>
+
+    </section>
+  </main>
+</body>
+</html>
